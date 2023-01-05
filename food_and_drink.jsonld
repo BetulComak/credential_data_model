@@ -3,9 +3,7 @@
     "name": "http://xmlns.com/foaf/0.1/name",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "description":"http://schema.org/description",
-    "image": {
-      "@id": "http://xmlns.com/foaf/0.1/img",
-      "@type": "@id"
-      }
+    "general_last_update_date":{ "@id": "http://schema.org/generalLastUpdateDate",
+      "@type": "xsd:date" }
   }
 }
