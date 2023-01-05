@@ -1,8 +1,5 @@
 {
   "@context":{
-    "@version":1.1,
-    "id":"@id",
-    "type":"@type",
     "name": "http://xmlns.com/foaf/0.1/name",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "description":"http://schema.org/description",
