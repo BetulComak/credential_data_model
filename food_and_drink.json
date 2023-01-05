@@ -1,0 +1,37 @@
+{
+  "@context":{
+    "@version":1.1,
+    "id":"@id",
+    "type":"@type",
+    "name":"http://schema.org/name",
+    "description":"http://schema.org/description",
+
+    "FoodAndDrink":{
+      "@id":"ex:FoodAndDrink",
+      "@context":{
+        "@version":1.1,
+        "@protected":true,
+        "id":"@id",
+        "type":"@type",
+        "xsd":"http://www.w3.org/2001/XMLSchema#",
+        "ex":"https://example.org/examples#",
+
+        "general_last_update_date":{ "@id":"ex:general_last_update_date" },
+        "vending_machines_avg_monthly_spend":{ "@id":"ex:vending_machines_avg_monthly_spend" },
+        "general_avg_monthly_spend":{ "@id":"ex:general_avg_monthly_spend " },
+        "cafe_monthly_spend_rate":{ "@id":"ex:cafe_monthly_spend_rate" },
+        "takeaway_avg_monthly_spend":{ "@id":"ex:takeaway_avg_monthly_spend" },
+        "bar_monthly_spend_rate":{ "@id":"ex:bar_monthly_spend_rate" },
+        "restaurant_avg_monthly_spend":{ "@id":"ex:restaurant_avg_monthly_spend" },
+        "general_monthly_spend_rate":{ "@id":"ex:general_monthly_spend_rate" },
+        "takeaway_monthly_spend_rate":{ "@id":"ex:takeaway_monthly_spend_rate" },
+        "bar_avg_monthly_spend":{ "@id":"ex:bar_avg_monthly_spend" },
+        "restaurant_monthly_spend_rate":{ "@id":"ex:restaurant_monthly_spend_rate" },
+        "others_avg_monthly_spend":{ "@id":"ex:others_avg_monthly_spend" },
+        "cafe_avg_monthly_spend":{ "@id":"ex:cafe_avg_monthly_spend" },
+        "others_monthly_spend_rate":{ "@id":"ex:others_monthly_spend_rate" },
+        "vending_machines_monthly_spend_rate":{ "@id":"ex:vending_machines_monthly_spend_rate" }
+      }
+    }
+  }
+}
