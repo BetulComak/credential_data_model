@@ -1,0 +1,13 @@
+{
+    "@context": {
+    "id": "@id",
+    "type": "@type",
+    "description": "http://schema.org/description",
+    "name": "http://schema.org/name",
+    "identifier": "http://schema.org/identifier",
+    "birthDate": {
+      "@id": "http://schema.org/birthDate",
+      "@type": "xsd:date" 
+    }
+    } 
+} 
