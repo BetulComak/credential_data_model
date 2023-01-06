@@ -16,6 +16,7 @@
           }  
       },
       "FoodAndDrink": {
+      "@id": "http://xmlns.com/foaf/0.1/FoodAndDrink",
       "url":"https://raw.githubusercontent.com/BetulComak/credential_data_model/main/food_and_drink.jsonld"
       }
     }
