@@ -1,5 +1,6 @@
 {
     "@context":{
+      "Over18": "http://xmlns.com/foaf/0.1/Over18",
       "xsd": "http://www.w3.org/2001/XMLSchema#",
       "description":"http://schema.org/description",
           "isOver18": {
