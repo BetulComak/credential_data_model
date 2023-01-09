@@ -14,7 +14,7 @@
             },
             "generalAvgMonthlySpend": {
                 "@id": "http://schema.org/generalAvgMonthlySpend",
-                "@type": "xsd:double"
+                "@type": "xsd:numeric"
             }
         }
     }
