@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "Veracity": "http://xmlns.com/foaf/0.1/Veracity",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "description": "http://schema.org/description",
+    "attributeValues": {
+      "generalLastUpdateDate": {
+        "@id": "http://schema.org/generalLastUpdateDate",
+        "@type": "xsd:date"
+      },
+      "vendingMachinesAvgMonthlySpendLabel": {
+        "@id": "http://schema.org/vendingMachinesAvgMonthlySpendLabel",
+        "@type": "xsd:string"
+      },
+      "generalAvgMonthlySpend": {
+        "@id": "http://schema.org/generalAvgMonthlySpend",
+        "@type": "xsd:numeric"
+      }
+    }
+  }
+}
