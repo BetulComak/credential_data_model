@@ -1,8 +1,8 @@
 {
     "documents": [
         {
-            "url": "https://www.w3.org/2018/credentials/examples/v1",
-            "documentURL": "https://www.w3.org/2018/credentials/examples/v1",
+            "url": "https://raw.githubusercontent.com/BetulComak/credential_data_model/main/mobile_os.jsonld",
+            "documentURL": "https://raw.githubusercontent.com/BetulComak/credential_data_model/main/mobile_os.jsonld",
             "content": {
                 "@context": [
                     {
