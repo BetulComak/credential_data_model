@@ -1,0 +1,29 @@
+{
+    "documents": [
+        {
+            "url": "https://www.w3.org/2018/credentials/examples/v1",
+            "documentURL": "https://www.w3.org/2018/credentials/examples/v1",
+            "content": {
+                "@context": [
+                    {
+                        "@version": 1.1
+                    },
+                    "https://raw.githubusercontent.com/BetulComak/credential_data_model/main/mobile_os.jsonld",
+                    {
+                        "MobileOs": "http://xmlns.com/foaf/0.1/MobileOs",
+                        "xsd": "http://www.w3.org/2001/XMLSchema#",
+                        "description": "http://schema.org/description",
+                        "generalLastUpdateDate": {
+                            "@id": "http://schema.org/generalLastUpdateDate",
+                            "@type": "xsd:date"
+                        },
+                        "OperationSystem": {
+                            "@id": "http://schema.org/operationSystem",
+                            "@type": "xsd:string"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
