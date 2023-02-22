@@ -11,8 +11,12 @@
                         "@id": "http://schema.org/generalLastUpdateDate",
                         "@type": "xsd:date"
                     },
-                    "OperationSystem": {
+                    "operationSystem": {
                         "@id": "http://schema.org/operationSystem",
+                        "@type": "xsd:string"
+                    },
+                    "merchantName": {
+                        "@id": "http://schema.org/merchantName",
                         "@type": "xsd:string"
                     }
                 }
