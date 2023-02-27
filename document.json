@@ -21,6 +21,46 @@
                     }
                 }
             }
+        },
+        {
+            "url": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/SocialBehaviourV3",
+            "content": {
+                "@context": {
+                    "@version": 1.1,
+                    "@protected": true,
+                    "id": "@id",
+                    "type": "@type",
+                    "description": "http://schema.org/description",
+                    "identifier": "http://schema.org/identifier",
+                    "name": "http://schema.org/name",
+                    "image": "http://schema.org/image",
+                    "SocialBehaviour": {
+                        "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/SocialBehaviourV3#SocialBehaviour",
+                        "@context": {
+                            "@version": 1.1,
+                            "@protected": true,
+                            "id": "@id",
+                            "type": "@type",
+                            "description": "http://schema.org/description",
+                            "identifier": "http://schema.org/identifier",
+                            "name": "http://schema.org/name",
+                            "image": "http://schema.org/image"
+                        }
+                    },
+                    "MobileOs": {
+                        "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/SocialBehaviourV3#MobileOs",
+                        "@context": {
+                            "@version": 1.1,
+                            "@protected": true,
+                            "id": "@id",
+                            "type": "@type",
+                            "veracity_ns": "https://veracity-vocab.com/",
+                            "general_last_update_date": "veracity_ns:general_last_update_date",
+                            "general_os": "veracity_ns:general_os"
+                        }
+                    }
+                }
+            }
         }
     ]
 }
