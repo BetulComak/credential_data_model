@@ -1,28 +1,6 @@
 {
     "documents": [
         {
-            "url": "https://raw.githubusercontent.com/BetulComak/credential_data_model/main/mobile_os.jsonld",
-            "content": {
-                "@context": {
-                    "MobileOs": "http://xmlns.com/foaf/0.1/MobileOs",
-                    "xsd": "http://www.w3.org/2001/XMLSchema#",
-                    "description": "http://schema.org/description",
-                    "generalLastUpdateDate": {
-                        "@id": "http://schema.org/generalLastUpdateDate",
-                        "@type": "xsd:date"
-                    },
-                    "operationSystem": {
-                        "@id": "http://schema.org/operationSystem",
-                        "@type": "xsd:string"
-                    },
-                    "merchantName": {
-                        "@id": "http://schema.org/merchantName",
-                        "@type": "xsd:string"
-                    }
-                }
-            }
-        },
-        {
             "url": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/SocialBehaviourV3",
             "content": {
                 "@context": {
