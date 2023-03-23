@@ -1,56 +1,49 @@
 {
-    "documents": [
-        {
-            "url": "https://raw.githubusercontent.com/BetulComak/credential_data_model/main//SocialBehaviourV1",
-            "content": {
-                "@context": {
-                    "@version": 1.1,
-                    "@protected": true,
-                    "id": "@id",
-                    "type": "@type",
-                    "description": "http://schema.org/description",
-                    "identifier": "http://schema.org/identifier",
-                    "name": "http://schema.org/name",
-                    "image": "http://schema.org/image",
-                    "SocialBehaviour": {
-                        "@id": "https://raw.githubusercontent.com/BetulComak/credential_data_model/main/social_behaviour#social_behaviour",
-                        "@context": {
-                            "@version": 1.1,
-                            "@protected": true,
-                            "id": "@id",
-                            "type": "@type",
-                            "description": "http://schema.org/description",
-                            "identifier": "http://schema.org/identifier",
-                            "name": "http://schema.org/name",
-                            "image": "http://schema.org/image"
-                        }
-                    },
-                    "MobileOS": {
-                        "id": "https://raw.githubusercontent.com/BetulComak/credential_data_model/main/social_behaviour#MobileOS",
-                        "@context": {
-                            "@version": 1.1,
-                            "@protected": true,
-                            "id": "@id",
-                            "type": "@type",
-                            "veracity_ns": "https://veracity-vocab.com/",
-                            "general_last_update_date": "veracity_ns:general_last_update_date",
-                            "general_os": "veracity_ns:general_os"
-                        }
-                    },
-                    "Facebook": {
-                        "id": "https://raw.githubusercontent.com/BetulComak/credential_data_model/main/social_behaviour#Facebook",
-                        "@context": {
-                            "@version": 1.1,
-                            "@protected": true,
-                            "id": "@id",
-                            "type": "@type",
-                            "veracity_ns": "https://veracity-vocab.com/",
-                            "general_friends_count": "veracity_ns:general_friends_count",
-                            "general_os": "veracity_ns:general_os"
-                        }
-                    }
-                }
-            }
+    "@context": {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "description": "http://schema.org/description",
+      "identifier": "http://schema.org/identifier",
+      "name": "http://schema.org/name",
+      "image": "http://schema.org/image",
+      "SocialBehaviour": {
+        "@id": "https://raw.githubusercontent.com/BetulComak/credential_data_model/main/social_behaviour.jsonld#SocialBehaviour",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "description": "http://schema.org/description",
+          "identifier": "http://schema.org/identifier",
+          "name": "http://schema.org/name",
+          "image": "http://schema.org/image"
         }
-    ]
-}
+      },
+      "MobileOS": {
+        "id": "https://raw.githubusercontent.com/BetulComak/credential_data_model/main/social_behaviour.jsonld#MobileOS",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "veracity_ns": "https://veracity-vocab.com/",
+          "general_last_update_date": "veracity_ns:general_last_update_date",
+          "general_os": "veracity_ns:general_os"
+        }
+      },
+      "Facebook": {
+        "id": "https://raw.githubusercontent.com/BetulComak/credential_data_model/main/social_behaviour.jsonld#Facebook",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "veracity_ns": "https://veracity-vocab.com/",
+          "general_friends_count": "veracity_ns:general_friends_count",
+          "general_last_update_date": "veracity_ns:general_last_update_date"
+        }
+      }
+    }
+  }
